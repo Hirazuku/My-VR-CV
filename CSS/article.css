@@ -6,8 +6,12 @@
 
 .article__header {
     margin: 0px 10px;
-    color: #333;
+    color: rgb(189, 151, 80);
     font: 35px/2 'Oswald', sans-serif;
+    text-indent: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(142, 84, 8);
+    text-decoration-style: double;
 }
 
 .article__header--background {

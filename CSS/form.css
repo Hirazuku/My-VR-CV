@@ -22,6 +22,7 @@
 
 .form__field--box {
     box-shadow: none;
+    height: 30px;
 }
 
 .form__textArea {
