@@ -13,8 +13,7 @@
     };
 
     init();
-}
-{
+
     const sendForm = () => {
         const formElement = document.querySelector(".form")
         formElement.addEventListener("submit", () => {
@@ -27,18 +26,17 @@
     }
 
     sendForm();
-}
-{
+
     const calculatePrice = () => {
-        const price = document.querySelector(".js-price")
-        price.addEventListener("submit", (event) => {
+        const money = document.querySelector(".js-price")
+        money.addEventListener("submit", (event) => {
             event.preventDefault();
 
-            const powUz = document.querySelector(".js-PU");
-            const cenaOdMetra = 250;
-            const cena = cenaOdMetra * powUz.value;
+            const usArea = document.querySelector(".js-PU");
+            const pricePerMeter = 250;
+            const price = pricePerMeter * usArea.value;
             const finalPrice = document.querySelector(".js-finalPrice");
-            finalPrice.innerText = cena;
+            finalPrice.innerText = price;
         });
     }
 
