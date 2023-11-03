@@ -1,0 +1,20 @@
+.article {
+    margin: 0px 10px;
+    color: #333;
+    font: 25px/2 'Oswald', sans-serif;
+}
+
+.article__header {
+    margin: 0px 10px;
+    color: #333;
+    font: 35px/2 'Oswald', sans-serif;
+}
+
+.article__header--background {
+    background-color: rgb(208, 190, 168);
+}
+
+.article__header--boldItalic {
+    font-weight: 800;
+    font-style: italic;
+}

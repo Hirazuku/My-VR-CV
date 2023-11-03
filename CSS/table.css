@@ -1,0 +1,33 @@
+.table {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-collapse: collapse;
+    box-shadow: 29px 14px 90px 2px rgba(109, 77, 8, 0.555);
+}
+
+.table__cell {
+    border: 8px solid rgba(114, 48, 4, 0.226);
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.table__cell--header {
+    background-color: rgba(109, 77, 8, 0.555);
+}
+
+.table__cell--subheader {
+    font-weight: 800;
+}
+
+.table__overflow {
+    overflow-x: auto;
+}
+
+.caption {
+    font-size: 30px;
+    font-weight: 900;
+    caption-side: top;
+    text-align: left;
+}
