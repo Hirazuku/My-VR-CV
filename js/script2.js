@@ -37,8 +37,10 @@
         finalPrice.innerText = price;
     };
 
-    {
-        const money = document.querySelector(".js-price")
-        money.addEventListener("submit", calculatePrice)
-    }
+    const init = () => {
+            const money = document.querySelector(".js-price")
+            money.addEventListener("submit", calculatePrice)
+    };
+
+    init();
 }
