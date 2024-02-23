@@ -1,5 +1,5 @@
 .table {
-    width: 100%;
+    flex-basis: 100%;
     margin: 0 auto;
     max-width: 1600px;
     border-collapse: collapse;
@@ -34,6 +34,6 @@
 
 @media (max-width: 767px) {
     .table {
-        width: 100%;
+        flex-basis: 100%;
     }
 }
