@@ -31,3 +31,9 @@
     caption-side: top;
     text-align: left;
 }
+
+@media (max-width: 767px) {
+    .table {
+        width: 100%;
+    }
+}
