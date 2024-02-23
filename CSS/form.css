@@ -39,7 +39,7 @@
 }
 
 @media (max-width: 767px) {
-    .form {
+    .form__labelText {
         width: 100%;
     }
     .form__legend {
