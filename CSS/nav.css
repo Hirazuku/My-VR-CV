@@ -48,3 +48,10 @@
         font-size: 15px;
     }
 }
+
+@media (min-width: 2000px) {
+    .nav__link {
+        font-size: 75px;
+        padding: 25px;
+    }
+}

@@ -28,3 +28,9 @@
         font: 15px/2 'Oswald', sans-serif;
     }
 }
+
+@media (min-width: 2000px) {
+    .article__header {
+        font-size: 75px;
+    }
+}

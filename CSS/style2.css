@@ -12,8 +12,8 @@ html {
 
 .container {
     margin: 0 auto;
-    padding: 15px;
-    max-width: 1600px;
+    padding: 25px;
+    max-width: 4000px;
     color: #000000;
     background-color: rgb(208, 201, 168);
     font: 25px/2 'Oswald', sans-serif;
@@ -51,9 +51,10 @@ html {
 .element {
     display: block;
     width: 100%;
-    max-width: 1600px;
+    max-width: 4000px;
     border: 8px solid rgba(114, 48, 4, 0.226);
     box-shadow: 29px 14px 90px 2px rgba(109, 77, 8, 0.555);
+    margin: 0 auto;
 }
 
 .list {
@@ -89,5 +90,20 @@ html {
 
     .list__item {
         border: 4px solid rgba(114, 48, 4, 0.226);
+    }
+}
+
+@media (max-width: 3000px) {
+    .container {
+        background-size: 300%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .container {
+        font-size: 75px;
+    }
+    .list__item {
+        padding:75px;
     }
 }
