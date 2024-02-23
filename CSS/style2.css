@@ -67,7 +67,7 @@ html {
     display: flex;
     flex-direction: row;
     align-content: center;
-    align-items:center;
+    align-items: center;
     list-style-type: none;
     flex-wrap: wrap;
 }
@@ -78,5 +78,5 @@ html {
     flex: 1 1 auto;
     margin: 10px 10px;
     box-shadow: 10px 10px 10px 2px rgba(109, 77, 8, 0.233);
-    justify-content:;
+    justify-content: ;
 }

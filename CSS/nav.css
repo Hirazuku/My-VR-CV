@@ -40,8 +40,8 @@
 }
 
 @media (max-width: 767px) {
-    .element {
-        width: 100%;
+    .nav {
+        width: 50%;
         flex-wrap: wrap;
     }
 }
