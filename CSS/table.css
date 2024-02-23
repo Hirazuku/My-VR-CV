@@ -36,9 +36,11 @@
     .table {
         width: 50%;
     }
+
     .caption {
         font-size: 15px;
     }
+
     .table__cell {
         border: 4px solid rgba(114, 48, 4, 0.226);
     }

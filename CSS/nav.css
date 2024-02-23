@@ -45,6 +45,7 @@
         width: 80%;
         flex-wrap: wrap;
     }
+
     .nav__link {
         font-size: 15px;
     }

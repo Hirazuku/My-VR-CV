@@ -42,6 +42,7 @@
     .form__labelText {
         width: 100%;
     }
+
     .form__legend {
         font-size: 15px;
     }
@@ -49,12 +50,14 @@
 
 @media (min-width: 2000px) {
     .form__legend {
-        font-size: 75px;   
-    } 
+        font-size: 75px;
+    }
+
     .form__field--box {
         width: 500px;
         height: 100px;
     }
+
     .form__labelText {
         width: 1000px;
     }

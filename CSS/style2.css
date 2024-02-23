@@ -103,7 +103,8 @@ html {
     .container {
         font-size: 75px;
     }
+
     .list__item {
-        padding:75px;
+        padding: 75px;
     }
 }
