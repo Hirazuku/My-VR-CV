@@ -1,5 +1,5 @@
 .form__labelText {
-    flex-basis: 400px;
+    width: 400px;
     display: inline-block;
 }
 
@@ -40,6 +40,6 @@
 
 @media (max-width: 767px) {
     .form {
-        flex-basis: 100%;
+        width: 100%;
     }
 }

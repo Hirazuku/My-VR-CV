@@ -10,6 +10,11 @@ html {
 
 /* every single element with its margins, paddings etc. will now be treated as a whole box for specifications like width, high etc.*/
 
+@media (max-width: 767px) {
+    .element {
+        width: 100%;
+    }
+}
 
 .container {
     margin: 0 auto;
@@ -55,12 +60,6 @@ html {
     max-width: 1600px;
     border: 8px solid rgba(114, 48, 4, 0.226);
     box-shadow: 29px 14px 90px 2px rgba(109, 77, 8, 0.555);
-}
-
-@media (max-width: 767px) {
-    .element {
-        width: 100%;
-    }
 }
 
 .list {
