@@ -23,3 +23,8 @@
     font-style: italic;
 }
 
+@media (max-width: 767px) {
+    .article__header {
+        font: 15px/2 'Oswald', sans-serif;
+    }
+}
