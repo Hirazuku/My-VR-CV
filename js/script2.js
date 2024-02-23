@@ -7,12 +7,12 @@
         themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";//this instruction changes text inside the button;
     };
 
-    const init = () => {
+    const dark = () => {
         const toggleBackground = document.querySelector(".button");
         toggleBackground.addEventListener("click", onToggleBackgroundClick)
     };
 
-    init();
+    dark();
 
     const sendForm = () => {
         const formElement = document.querySelector(".form")

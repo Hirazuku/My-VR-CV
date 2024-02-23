@@ -28,6 +28,8 @@ html {
 .dark {
     color: rgb(208, 201, 168);
     background-image: url("https://i.postimg.cc/T33H2N4z/pexels-expect-best-323705-fliped-colors.jpg");
+    max-width: 4000px;
+    background-size: 100%;
 }
 
 .header {
