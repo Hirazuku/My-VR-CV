@@ -29,7 +29,7 @@
     }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 4000px) {
     .article__header {
         font-size: 75px;
     }

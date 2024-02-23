@@ -26,7 +26,7 @@
     }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 4000px) {
     .button {
         font-size: 75px;
         padding: 25px;

@@ -46,7 +46,7 @@
     }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 4000px) {
     .caption {
         font-size: 75px;
     }

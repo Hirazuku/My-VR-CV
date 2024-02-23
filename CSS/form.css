@@ -48,7 +48,7 @@
     }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 4000px) {
     .form__legend {
         font-size: 75px;
     }
