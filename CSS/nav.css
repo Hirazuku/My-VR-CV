@@ -37,3 +37,9 @@
 .addition {
     color: rgb(198, 192, 189);
 }
+
+@media (max-width: 767px) {
+    .element {
+        width: 100%;
+    }
+}
