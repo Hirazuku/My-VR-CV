@@ -81,5 +81,6 @@ html {
     }
     .container {
         font: 15px/2 'Oswald', sans-serif;
+        background-size: 300%;
     }
 }
