@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     padding: 0px;
-    flex-basis: 100%;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .nav__list {
