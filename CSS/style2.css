@@ -85,7 +85,6 @@ html {
 
     .container {
         font: 15px/2 'Oswald', sans-serif;
-        background-size: 300%;
         width: 100%;
         padding: 0 5%;
     }
@@ -93,13 +92,9 @@ html {
     .list__item {
         border: 4px solid rgba(114, 48, 4, 0.226);
     }
-
-    .dark {
-        background-size: 300%;
-    }
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 1250px) {
     .container {
         background-size: 300%;
     }
