@@ -12,7 +12,7 @@ html {
 
 .container {
     margin: 0 auto;
-    padding: 25px;
+    padding: 0 10%;
     max-width: 4000px;
     color: #000000;
     background-color: rgb(208, 201, 168);
@@ -33,9 +33,9 @@ html {
 }
 
 .header {
+    font-size: 30px;
     text-align: center;
     width: 800;
-    padding: 0px 15px;
     color: rgb(189, 151, 80);
     text-shadow: 2px 3px 3px #888;
     background-color: rgba(1, 1, 1, 0.801);
@@ -87,6 +87,7 @@ html {
         font: 15px/2 'Oswald', sans-serif;
         background-size: 300%;
         width: 100%;
+        padding: 0 5%;
     }
 
     .list__item {
