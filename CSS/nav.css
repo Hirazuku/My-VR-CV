@@ -1,20 +1,11 @@
 .nav {
     display: grid;
-    grid-template-columns: 100%;
-    justify-content: center;
+    grid-template-columns: 2fr 2fr;
     width: 100%;
-    flex-wrap: wrap;
-}
-
-.nav__list {
-    list-style: none;
 }
 
 .nav__item {
-    margin: 0 auto;
-    text-indent: 0px;
     padding: 15px 15px;
-    display: inline-flex;
     text-align: center;
     text-transform: uppercase;
 }
@@ -44,8 +35,6 @@
     .nav {
         width: 80%;
         flex-wrap: wrap;
-        display: grid;
-        grid-template-columns: 100%;
     }
 
     .nav__link {
