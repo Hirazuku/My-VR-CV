@@ -55,21 +55,6 @@ html {
     font-style: italic;
 }
 
-.nav {
-    padding: 25px;
-    margin: 0 10%;
-    color: rgb(104, 62, 0);
-    background-color: rgba(109, 77, 8, 0.555);
-    font-weight: 800;
-    border: 5px solid rgba(109, 77, 8, 0.555);
-    border-radius: 5px;
-    box-shadow: 29px 14px 90px=0 2px rgba(109, 77, 8, 0.555);
-    font-size: 35px;
-    text-decoration: none;
-    display: inline-block;
-    /* nav will function as a block element */
-}
-
 .addition {
     color: rgb(198, 192, 189);
 }
